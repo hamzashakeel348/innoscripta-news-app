@@ -66,7 +66,7 @@ const FilterBar = ({ showSearchBar = true, showDateFilter = true }) => {
             <option value="">All Categories</option>
             <option value="technology">Technology</option>
             <option value="politics">Politics</option>
-            <option value="sports">Sports</option>
+            <option value="sport">Sports</option>
             <option value="arts">Arts</option>
             <option value="music">Music</option>
             <option value="finance">Finance</option>
