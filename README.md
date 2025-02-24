@@ -3,6 +3,13 @@
 ## 📌 Overview
 The **Innoscripta News App** is a news aggregator built with React, TypeScript, Vite, and Redux. It fetches news from multiple sources, including NewsAPI, The Guardian, and The New York Times, allowing users to view personalized news feeds with filtering options.
 
+## 🚀 Loom for Demonstration
+https://www.loom.com/share/87b99f1b60904499a564e75b577ea2a8
+
+
+## 🚀 Live Demo on Vercel
+https://innoscripta-news-app-kappa.vercel.app
+
 ## 🚀 Features
 - Fetches news from multiple sources (NewsAPI, The Guardian, NY Times)
 - Personalized news feed with filters
@@ -30,6 +37,7 @@ innoscripta-newsapp/
 │   │   ├── Filter.tsx
 │   │   ├── PersonalisedFeed.tsx
 │   │   ├── NewsList.tsx
+|   |   |-- ArticleCard.tsx
 │   ├── features/         # Redux slices
 │   │   ├── articles/
 │   │   │   ├── articlesSlice.ts
