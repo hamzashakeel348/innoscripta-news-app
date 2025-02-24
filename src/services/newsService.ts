@@ -65,7 +65,7 @@ const fetchGuardianArticles = async (query: string) => {
   }
 };
 
-const fetchNewYorkTimesArticles = async (query: string) => {
+const fetchNewYorkTimesArticles = async () => {
   try {
     const response = await axios.get(
       `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=${NY_TIMES_API_KEY}`
@@ -89,7 +89,7 @@ export const fetchAllArticles = async (query: string) => {
   const results = await Promise.allSettled([
     fetchNewsAPIArticles(query),
     fetchGuardianArticles(query),
-    fetchNewYorkTimesArticles(query),
+    fetchNewYorkTimesArticles(),
   ]);
 
   return results
